@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-primary-500: oklch(0.5727 0.23 259.9);
+  --color-gray-300: oklch(0.573 0.0444 284.91);
+  --color-red-300: oklch(0.7685 0.1369 20.73);
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
