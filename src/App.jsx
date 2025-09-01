@@ -13,18 +13,20 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
-    <main className="md:max-w-7xl mx-auto px-5 md:px-3">
-    <Routes>
-      <Route path="/" element={<Home />} exact />
-      <Route path="/features" element={<Features />} exact />
-      <Route path="/pages" element={<Pages />} exact />
-      <Route path="/support" element={<Support />} exact />
-      <Route path="/404" element={<NotFoundPage />} />
-      <Route path="*" element={<Navigate replace to="/404" />} />
-    </Routes>
-    </main>
-  </BrowserRouter>
+      <div className="bg-light-200 w-full h-screen">
+        <Navbar />
+        <main className="pt-30 md:max-w-7xl mx-auto px-5 md:px-3">
+        <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/features" element={<Features />} exact />
+          <Route path="/pages" element={<Pages />} exact />
+          <Route path="/support" element={<Support />} exact />
+          <Route path="/404" element={<NotFoundPage />} />
+          <Route path="*" element={<Navigate replace to="/404" />} />
+        </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   )
 }
 
