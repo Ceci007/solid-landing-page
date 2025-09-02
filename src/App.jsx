@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-light-200 w-full h-screen">
         <Navbar />
-        <main className="pt-30 md:max-w-7xl mx-auto px-5 md:px-3">
+        <main className="pt-[115px] bg-white md:max-w-7xl mx-auto">
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/features" element={<Features />} exact />
