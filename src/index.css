@@ -6,8 +6,10 @@
   --color-primary-500: oklch(0.5727 0.23 259.9);
   --color-gray-300: oklch(0.573 0.0444 284.91);
   --color-red-300: oklch(0.7685 0.1369 20.73);
+  --color-highlight-500: oklch(0.9114 0.1102 182.61);
 
   --color-light-200: oklch(0.9703 0.0083 271.33);
+  --color-dark-text-500: oklch(0.2765 0.044 283.14);
 
   --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
