@@ -13,7 +13,7 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-light-200 w-full h-screen">
+      <div className="bg-white w-full h-screen">
         <Navbar />
         <main className="pt-[115px] bg-white md:max-w-7xl mx-auto">
         <Routes>
