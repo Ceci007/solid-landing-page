@@ -2,7 +2,7 @@
 
 > This is a landing page with only the hero section, this uses react and tailwind css to make the page.
 
-![app screenshot](./app_screenshot.png)
+![app screenshot](./app_screenshot.png) 
 
 # Built With
 
