@@ -9,7 +9,7 @@ import teamLogo6 from "../assets/team-logo-6.svg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-[650px] gap-[20px] justify-between">
+    <div className="flex flex-col h-[550px] gap-[20px] justify-between">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-[20px]">
         <div className="px-5 md:px-3 flex flex-col justify-center">
           <h3 className="text-md lg:text-lg text-dark-text-500 font-semibold mb-6">🔥 Solid is one of the best options for you</h3>
@@ -31,24 +31,24 @@ const Home = () => {
           <img src={heroImg} width={700} height={444} className="shadow-2xl shadow-gray-300" />
         </div>
       </div>
-      <div className="bg-white w-full h-[90px] grid grid-cols-3 lg:grid-cols-6 place-items-end">
-        <div className="bg-light-200 flex items-center justify-center w-full py-3">
-          <img src={teamLogo1} width={100} height={30} className="brightness-125" />
+      <div className="bg-white w-full grid grid-cols-3 lg:grid-cols-6 place-items-end">
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo1} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="flex items-center justify-center w-full py-3">
-          <img src={teamLogo2} width={100} height={30} className="brightness-125" />
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo2} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3">
-          <img src={teamLogo3} width={100} height={30} className="brightness-125" />
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo3} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="flex items-center justify-center w-full py-3">
-          <img src={teamLogo4} width={100} height={30} className="brightness-125" />
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo4} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3">
-          <img src={teamLogo5} width={100} height={30} className="brightness-125" />
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo5} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="flex items-center justify-center w-full py-3">
-          <img src={teamLogo6} width={100} height={30} className="brightness-125" />
+        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+          <img src={teamLogo6} width={100} height={30} className="brightness-50" />
         </div>
       </div>
     </div>

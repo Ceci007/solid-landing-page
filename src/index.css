@@ -9,6 +9,7 @@
   --color-highlight-500: oklch(0.9114 0.1102 182.61);
 
   --color-light-200: oklch(0.9703 0.0083 271.33);
+  --color-light-400: oklch(0.8257 0.0449 271.26);
   --color-dark-text-500: oklch(0.2765 0.044 283.14);
 
   --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
