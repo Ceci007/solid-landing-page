@@ -31,23 +31,23 @@ const Home = () => {
           <img src={heroImg} width={700} height={444} className="shadow-2xl shadow-gray-300" />
         </div>
       </div>
-      <div className="bg-white w-full grid grid-cols-3 lg:grid-cols-6 place-items-end">
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+      <div className="bg-white px-5 md:px-3 w-full grid grid-cols-3 lg:grid-cols-6 place-items-end">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo1} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo2} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo3} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo4} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo5} width={100} height={30} className="brightness-50" />
         </div>
-        <div className="bg-light-200 flex items-center justify-center w-full py-3 h-[60px]">
+        <div className="flex items-center justify-center lg:justify-start w-full py-3 h-[60px]">
           <img src={teamLogo6} width={100} height={30} className="brightness-50" />
         </div>
       </div>
